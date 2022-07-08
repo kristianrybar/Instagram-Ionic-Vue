@@ -1,0 +1,7 @@
+{
+  "name": "ig-app",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "vue"
+}

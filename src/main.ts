@@ -33,6 +33,9 @@ import { chevronForwardOutline } from 'ionicons/icons';
 import { heartOutline } from 'ionicons/icons';
 import { chatbubbleOutline } from 'ionicons/icons';
 import { bookmarkOutline } from 'ionicons/icons';
+import { homeOutline } from 'ionicons/icons';
+import { searchOutline } from 'ionicons/icons';
+import { personOutline } from 'ionicons/icons';
 
 addIcons({
   cameraoutline: cameraOutline,
@@ -42,8 +45,10 @@ addIcons({
   chevronforwardoutline: chevronForwardOutline,
   heartoutline: heartOutline,
   chatbubbleoutline: chatbubbleOutline,
-  bookmarkoutline: bookmarkOutline
-
+  bookmarkoutline: bookmarkOutline,
+  homeoutline: homeOutline,
+  searchoutline: searchOutline,
+  personoutline: personOutline 
 });
 
 const app = createApp(App)

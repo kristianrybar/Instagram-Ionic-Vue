@@ -27,7 +27,7 @@
                 <ion-icon icon="heartoutline"></ion-icon>
                 <ion-icon icon="chatbubbleoutline"></ion-icon>
                 <ion-icon icon="paperplaneoutline"></ion-icon>
-                <ion-icon class="pull-right" icon="bookmarkoutline"></ion-icon>
+                <ion-icon class="ion-float-right" icon="bookmarkoutline"></ion-icon>
             </p>
             <p>
                 Liked by
@@ -51,6 +51,266 @@
             </p>
         </div>
     </div>
+
+    <div class="post">
+        <ion-item>
+            <ion-avatar>
+                <img src="../assets/avatars/expl0ited_.jpg" alt="mateklemp">
+            </ion-avatar>
+            <div class="item-inner">
+                <div class="input-wrapper">
+                    <ion-label>
+                        <h3>
+                            <b>expl0ited_</b>
+                            <ion-icon icon="ellipsishorizontal"></ion-icon>
+                        </h3>
+                        <p>
+                            Bratislava 
+                            <ion-icon icon="chevronforwardoutline"></ion-icon>
+                        </p>
+                    </ion-label>
+                </div> 
+            </div>
+        </ion-item>
+
+        <img src="../assets/posts/expl0ited_.jpg" alt="exploited">
+
+        <div class="post-content">
+            <p class="post-content-icons">
+                <ion-icon icon="heartoutline"></ion-icon>
+                <ion-icon icon="chatbubbleoutline"></ion-icon>
+                <ion-icon icon="paperplaneoutline"></ion-icon>
+                <ion-icon class="ion-float-right" icon="bookmarkoutline"></ion-icon>
+            </p>
+            <p>
+                Liked by
+                <b>expl0ited_</b>
+                and
+                <b>22 others</b>
+            </p>
+            <p>
+                <b>mateklemp</b>
+                Wait a minute. Wait a minute, Doc. Uhhh... Are you telling me that you built a time machine... out of a DeLorean?! Whoa. This is heavy.
+                <a href="#">#homolka</a>
+                <a href="#">@chatahomolka</a>
+            </p>
+            <p class="footnote">
+                <ion-note>
+                    1 DAY AGO ·
+                </ion-note>
+                <span class="note">   
+                    SEE TRANSLATION
+                </span>
+            </p>
+        </div>
+    </div>
+
+    <div class="post">
+        <ion-item>
+            <ion-avatar>
+                <img src="../assets/avatars/elonmusk.jpg" alt="elonmusk">
+            </ion-avatar>
+            <div class="item-inner">
+                <div class="input-wrapper">
+                    <ion-label>
+                        <h3>
+                            <b>elonmusk</b>
+                            <ion-icon icon="ellipsishorizontal"></ion-icon>
+                        </h3>
+                        <p>
+                        </p>
+                    </ion-label>
+                </div> 
+            </div>
+        </ion-item>
+
+        <img src="../assets/posts/elonmusk.jpg" alt="elonmusk">
+
+        <div class="post-content">
+            <p class="post-content-icons">
+                <ion-icon icon="heartoutline"></ion-icon>
+                <ion-icon icon="chatbubbleoutline"></ion-icon>
+                <ion-icon icon="paperplaneoutline"></ion-icon>
+                <ion-icon class="ion-float-right" icon="bookmarkoutline"></ion-icon>
+            </p>
+            <p>
+                Liked by
+                <b>elonmusk</b>
+                and
+                <b>22 others</b>
+            </p>
+            <p>
+                <b>elonmusk</b>
+                Wait a minute. Wait a minute, Doc. Uhhh... Are you telling me that you built a time machine... out of a DeLorean?! Whoa. This is heavy.
+                <a href="#">#homolka</a>
+                <a href="#">@chatahomolka</a>
+            </p>
+            <p class="footnote">
+                <ion-note>
+                    1 DAY AGO ·
+                </ion-note>
+                <span class="note">   
+                    SEE TRANSLATION
+                </span>
+            </p>
+        </div>
+    </div>
+
+    <div class="post">
+        <ion-item>
+            <ion-avatar>
+                <img src="../assets/avatars/bhadbhabie.jpg" alt="bhadbhabie">
+            </ion-avatar>
+            <div class="item-inner">
+                <div class="input-wrapper">
+                    <ion-label>
+                        <h3>
+                            <b>bhadbhabie</b>
+                            <ion-icon icon="ellipsishorizontal"></ion-icon>
+                        </h3>
+                        <p>
+                            Melrose Avenue 
+                            <ion-icon icon="chevronforwardoutline"></ion-icon>
+                        </p>
+                    </ion-label>
+                </div> 
+            </div>
+        </ion-item>
+
+        <img src="../assets/posts/bhadbhabie.jpg" alt="bhadbhabie">
+
+        <div class="post-content">
+            <p class="post-content-icons">
+                <ion-icon icon="heartoutline"></ion-icon>
+                <ion-icon icon="chatbubbleoutline"></ion-icon>
+                <ion-icon icon="paperplaneoutline"></ion-icon>
+                <ion-icon class="ion-float-right" icon="bookmarkoutline"></ion-icon>
+            </p>
+            <p>
+                Liked by
+                <b>bhadbhabie</b>
+                and
+                <b>22 others</b>
+            </p>
+            <p>
+                <b>bhadbhabie</b>
+                Wait a minute. Wait a minute, Doc. Uhhh... Are you telling me that you built a time machine... out of a DeLorean?! Whoa. This is heavy.
+                <a href="#">#homolka</a>
+                <a href="#">@chatahomolka</a>
+            </p>
+            <p class="footnote">
+                <ion-note>
+                    1 DAY AGO ·
+                </ion-note>
+                <span class="note">   
+                    SEE TRANSLATION
+                </span>
+            </p>
+        </div>
+    </div>
+    <div class="post">
+        <ion-item>
+            <ion-avatar>
+                <img src="../assets/avatars/teamklemp.jpg" alt="teamklemp">
+            </ion-avatar>
+            <div class="item-inner">
+                <div class="input-wrapper">
+                    <ion-label>
+                        <h3>
+                            <b>teamklemp</b>
+                            <ion-icon icon="ellipsishorizontal"></ion-icon>
+                        </h3>
+                        <p>
+                        </p>
+                    </ion-label>
+                </div> 
+            </div>
+        </ion-item>
+
+        <img src="../assets/posts/teamklemp.jpg" alt="teamklemp">
+
+        <div class="post-content">
+            <p class="post-content-icons">
+                <ion-icon icon="heartoutline"></ion-icon>
+                <ion-icon icon="chatbubbleoutline"></ion-icon>
+                <ion-icon icon="paperplaneoutline"></ion-icon>
+                <ion-icon class="ion-float-right" icon="bookmarkoutline"></ion-icon>
+            </p>
+            <p>
+                Liked by
+                <b>teamklemp</b>
+                and
+                <b>22 others</b>
+            </p>
+            <p>
+                <b>teamklemp</b>
+                Wait a minute. Wait a minute, Doc. Uhhh... Are you telling me that you built a time machine... out of a DeLorean?! Whoa. This is heavy.
+                <a href="#">#homolka</a>
+                <a href="#">@chatahomolka</a>
+            </p>
+            <p class="footnote">
+                <ion-note>
+                    1 DAY AGO ·
+                </ion-note>
+                <span class="note">   
+                    SEE TRANSLATION
+                </span>
+            </p>
+        </div>
+    </div>
+    <div class="post">
+        <ion-item>
+            <ion-avatar>
+                <img src="../assets/avatars/loganpaul.jpg" alt="loganpaul">
+            </ion-avatar>
+            <div class="item-inner">
+                <div class="input-wrapper">
+                    <ion-label>
+                        <h3>
+                            <b>loganpaul</b>
+                            <ion-icon icon="ellipsishorizontal"></ion-icon>
+                        </h3>
+                        <p>
+                            Dubai, United Arab Emirates 
+                            <ion-icon icon="chevronforwardoutline"></ion-icon>
+                        </p>
+                    </ion-label>
+                </div> 
+            </div>
+        </ion-item>
+
+        <img src="../assets/posts/loganpaul.jpg" alt="loganpaul">
+
+        <div class="post-content">
+            <p class="post-content-icons">
+                <ion-icon icon="heartoutline"></ion-icon>
+                <ion-icon icon="chatbubbleoutline"></ion-icon>
+                <ion-icon icon="paperplaneoutline"></ion-icon>
+                <ion-icon class="ion-float-right" icon="bookmarkoutline"></ion-icon>
+            </p>
+            <p>
+                Liked by
+                <b>loganpaul</b>
+                and
+                <b>22 others</b>
+            </p>
+            <p>
+                <b>loganpaul</b>
+                Wait a minute. Wait a minute, Doc. Uhhh... Are you telling me that you built a time machine... out of a DeLorean?! Whoa. This is heavy.
+                <a href="#">#homolka</a>
+                <a href="#">@chatahomolka</a>
+            </p>
+            <p class="footnote">
+                <ion-note>
+                    1 DAY AGO ·
+                </ion-note>
+                <span class="note">   
+                    SEE TRANSLATION
+                </span>
+            </p>
+        </div>
+    </div>
+    
 </template>
 
 <script lang="ts">
@@ -133,9 +393,6 @@ ion-label h3 ion-icon {
   margin-right: 1rem;
 }
 
-.pull-right {
-    float: right;
-}
 .note {
     color: #aeacb4;
 }

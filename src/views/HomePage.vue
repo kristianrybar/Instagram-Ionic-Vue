@@ -1,12 +1,10 @@
 <template>
   <ion-page>
-    
       <a-header/>
       <ion-content>
         <a-stories/>
         <a-homecontent/>
       </ion-content>
-     
   </ion-page>
 </template>
 

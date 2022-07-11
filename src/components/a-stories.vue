@@ -51,15 +51,16 @@
 
 <script lang="ts">
 import { defineComponent } from 'vue';
+import { IonIcon } from '@ionic/vue';
 
 export default defineComponent({
     name: 'a-stories',
-    components: {}
+    components: { IonIcon }
 
 });
 </script>
 
-<style>
+<style scoped>
 .stories {
     display: block;
     background: #fbfafa;
@@ -91,7 +92,8 @@ b {
 
 .users {
     height: 100px;
-    min-width: 550px;
+    overflow-x: scroll;
+    display: flex;
 }
 
 .user {
@@ -116,5 +118,9 @@ b {
     border: 0.8px solid #c6c6c6;
     height: 60px;
     width: 60px;
+}
+
+.stories .users .user img {
+    max-width: none !important;
 }
 </style>

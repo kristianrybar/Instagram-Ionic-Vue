@@ -314,12 +314,12 @@
 </template>
 
 <script lang="ts">
-import { IonItem, IonAvatar,IonLabel, IonNote } from '@ionic/vue';
+import { IonItem, IonAvatar,IonLabel, IonNote, IonIcon } from '@ionic/vue';
 import { defineComponent } from 'vue';
 
 export default defineComponent({
     name:'a-homecontent',
-    components: {IonItem, IonAvatar, IonLabel, IonNote}
+    components: {IonItem, IonAvatar, IonLabel, IonNote, IonIcon}
 
 })
 </script>

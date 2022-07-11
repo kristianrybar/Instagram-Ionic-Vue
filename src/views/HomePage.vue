@@ -9,7 +9,7 @@
 </template>
 
 <script lang="ts">
-import { IonPage, IonContent, } from '@ionic/vue';
+import { IonPage, IonContent,} from '@ionic/vue';
 import { defineComponent } from 'vue';
 import AHeader from '../components/a-header.vue'
 import AStories from '../components/a-stories.vue'

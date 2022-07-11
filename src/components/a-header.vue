@@ -1,32 +1,32 @@
 <template>
     <ion-header collapse="fade">
-        <ion-buttons>
-            <ion-button>
-                <ion-icon icon="cameraoutline"></ion-icon>
-            </ion-button>
-        </ion-buttons>
-        <ion-title>
-            <div>
-                <img class="logo" src="../assets/instagram-logo.png" alt="ig-logo">
-            </div>
-        </ion-title>
-        <ion-buttons>
-            <ion-button>
-                <ion-icon icon="paperplaneoutline"></ion-icon>
-                <div class="button-effect"></div>
-            </ion-button>
-        </ion-buttons>  
+            <ion-buttons>
+                <ion-button>
+                    <ion-icon icon="cameraoutline"></ion-icon>
+                </ion-button>
+            </ion-buttons>
+            <ion-title>
+                <div>
+                    <img class="logo" src="../assets/instagram-logo.png" alt="ig-logo">
+                </div>
+            </ion-title>
+            <ion-buttons>
+                <ion-button>
+                    <ion-icon icon="paperplaneoutline"></ion-icon>
+                    <div class="button-effect"></div>
+                </ion-button>
+            </ion-buttons>   
     </ion-header>
 </template>
 
 <script lang="ts">
 
-import { IonButtons, IonButton, IonTitle, IonIcon } from '@ionic/vue';
+import { IonButtons, IonButton, IonTitle, IonIcon, IonHeader } from '@ionic/vue';
 import { defineComponent } from 'vue';
 
 export default defineComponent({ 
     name: 'a-header',
-    components: { IonButtons, IonButton, IonTitle, IonIcon },
+    components: { IonButtons, IonButton, IonTitle, IonIcon, IonHeader },
 
 });
 </script>

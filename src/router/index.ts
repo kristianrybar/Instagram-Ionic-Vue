@@ -1,11 +1,11 @@
 import { createRouter, createWebHistory } from '@ionic/vue-router';
 import { RouteRecordRaw } from 'vue-router';
-import Tabs from '../views/tabs.vue'
+import ATabs from '../views/a-tabs.vue'
 
 const routes: Array<RouteRecordRaw> = [
   {
       path: '/',
-      component: Tabs,
+      component: ATabs,
       children: [
       {
         path: '/',
@@ -14,7 +14,23 @@ const routes: Array<RouteRecordRaw> = [
       {
         path: '/home',
         component: () => import('@/views/HomePage.vue')
-      } 
+      },
+      {
+        path: '/search',
+        component: () => import('@/views/HomePage.vue')
+      },
+      {
+        path: '/camera',
+        component: () => import('@/views/a-camera.vue')
+      },
+      {
+        path: '/liked',
+        component: () => import('@/views/HomePage.vue')
+      },
+      {
+        path: '/profile',
+        component: () => import('@/views/a-profile.vue')
+      }
     ]
   }
 ]

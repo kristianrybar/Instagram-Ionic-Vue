@@ -36,6 +36,12 @@ import { bookmarkOutline } from 'ionicons/icons';
 import { homeOutline } from 'ionicons/icons';
 import { searchOutline } from 'ionicons/icons';
 import { personOutline } from 'ionicons/icons';
+import { chevronDownOutline} from 'ionicons/icons';
+import { personAddOutline } from 'ionicons/icons';
+import { timerOutline } from 'ionicons/icons';
+import { cogOutline } from 'ionicons/icons';
+import { apps } from 'ionicons/icons';
+import { list } from 'ionicons/icons';
 
 addIcons({
   cameraoutline: cameraOutline,
@@ -48,7 +54,13 @@ addIcons({
   bookmarkoutline: bookmarkOutline,
   homeoutline: homeOutline,
   searchoutline: searchOutline,
-  personoutline: personOutline 
+  personoutline: personOutline,
+  personaddoutline: personAddOutline,
+  timeroutline: timerOutline,
+  chevrondownoutline: chevronDownOutline,
+  cogoutline: cogOutline,
+  apps: apps,
+  list: list,
 });
 
 const app = createApp(App)

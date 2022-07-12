@@ -94,6 +94,12 @@ b {
     height: 100px;
     overflow-x: scroll;
     display: flex;
+    -ms-overflow-style: none; /* for Internet Explorer, Edge */
+    scrollbar-width: none; /* for Firefox */
+}
+
+.users::-webkit-scrollbar {
+    display: none; /* for Chrome, Safari, and Opera */
 }
 
 .user {

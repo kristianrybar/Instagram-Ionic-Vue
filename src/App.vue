@@ -21,4 +21,14 @@ export default defineComponent({
  * {
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
  }
+
+ion-content {
+  --offset-bottom: auto!important;
+  --overflow: hidden;
+  overflow: auto;
+}
+
+::-webkit-scrollbar {
+    display: none;
+  }
  </style>

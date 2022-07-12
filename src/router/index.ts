@@ -17,7 +17,7 @@ const routes: Array<RouteRecordRaw> = [
       },
       {
         path: '/search',
-        component: () => import('@/views/HomePage.vue')
+        component: () => import('@/views/a-search.vue')
       },
       {
         path: '/camera',
@@ -25,7 +25,7 @@ const routes: Array<RouteRecordRaw> = [
       },
       {
         path: '/liked',
-        component: () => import('@/views/HomePage.vue')
+        component: () => import('@/views/a-liked.vue')
       },
       {
         path: '/profile',

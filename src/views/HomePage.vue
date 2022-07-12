@@ -25,5 +25,7 @@ export default defineComponent({
 </script>
 
 <style scoped>
-
+ ::-webkit-scrollbar {
+  display: none;
+ }
 </style>

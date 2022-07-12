@@ -1,18 +1,18 @@
 <template>
    <ion-page>
-        <ion-header>
+        <ion-header class="camera">
             <ion-buttons>
                 <button>
                     Cancel
                 </button>
             </ion-buttons>
-            <ion-title>
+            <ion-title class="ion-text-center">
                 <div>
                     Camera Roll
                 </div>
             </ion-title>
             <ion-buttons>
-                <button>
+                <button class="next">
                     Next
                 </button>
             </ion-buttons>
@@ -20,7 +20,7 @@
    </ion-page>
 </template>
 
-<script>
+<script lang="ts">
 import { defineComponent } from 'vue';
 import { IonPage, IonHeader, IonButtons, IonTitle} from '@ionic/vue'; 
 export default defineComponent({
@@ -31,5 +31,23 @@ export default defineComponent({
 </script>
 
 <style scoped>
-    
+.camera {
+    background: #fbfafa;
+    color: #262626;
+    display: flex;
+    padding: 4px;
+    padding-left: 4px;
+    padding-right: 4px;
+    min-height: 44px;
+}
+
+.camera button, .camera ion-title  {
+    font-size: 1.1rem;
+    background: #fbfafa;
+}
+
+.camera .next {
+    color: #3880ff;
+}
+
 </style>

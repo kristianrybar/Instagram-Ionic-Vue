@@ -2,6 +2,7 @@
   <ion-page>
       <a-header/>
       <ion-content>
+        
         <a-stories/>
         <a-homecontent/>
       </ion-content>
@@ -15,11 +16,12 @@ import AHeader from '../components/a-header.vue'
 import AStories from '../components/a-stories.vue'
 import AHomecontent from '../components/a-homecontent.vue'
 
+
 export default defineComponent({
   name: 'HomePage',
   components: {
     IonPage, IonContent,
-    AHeader, AStories, AHomecontent
+    AHeader, AStories, AHomecontent, 
   }
 });
 </script>

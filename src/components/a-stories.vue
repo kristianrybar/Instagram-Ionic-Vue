@@ -1,62 +1,42 @@
 <template>
- <div class="stories">
-    <header>
-        <b>Stories</b>
-        <span>
-            <ion-icon class="stories-play" icon="play"></ion-icon>
-            Watch all
-        </span>
-    </header>
-    <div class="users">
-        <div class="user">
-            <div class="avatar">
-                <img src="../assets/avatars/bhadbhabie.jpg" alt="bhadbhabie">  
+    <div class="stories">
+        <header>
+            <b>Stories</b>
+            <span>
+                <ion-icon class="stories-play" icon="play"></ion-icon>
+                Watch all
+            </span>
+        </header>
+        <div class="users">
+            <div v-for="avatar in avatars" :key="avatar" class="user">
+                <div class="avatar">
+                    <img :src="avatar.photo" alt="bhadbhabie">  
+                </div>
+                {{ avatar.user }}
             </div>
-            bhadbhabie
-        </div>
-        <div class="user">
-            <div class="avatar">
-                <img src="../assets/avatars/loganpaul.jpg" alt="loganpaul">  
-            </div>
-            loganpaul
-        </div>
-        <div class="user">
-            <div class="avatar">
-                <img src="../assets/avatars/elonmusk.jpg" alt="elonmusk">  
-            </div>
-            elonmusk
-        </div>
-        <div class="user">
-            <div class="avatar">
-                <img src="../assets/avatars/lenkamie.jpg" alt="lenkamie">  
-            </div>
-            lenkamie
-        </div>
-        <div class="user">
-            <div class="avatar">
-                <img src="../assets/avatars/mateklemp.jpg" alt="mateklemp">  
-            </div>
-            mateklemp
-        </div>
-        <div class="user">
-            <div class="avatar">
-                <img src="../assets/avatars/teamklemp.jpg" alt="teamklemp">  
-            </div>
-            teamklemp
         </div>
     </div>
- </div>
-    
 </template>
 
-<script lang="ts">
+<script>
 import { defineComponent } from 'vue';
 import { IonIcon } from '@ionic/vue';
 
 export default defineComponent({
     name: 'a-stories',
-    components: { IonIcon }
-
+    components: { IonIcon },
+    data() {
+        return {
+            avatars: [
+                { photo: new URL('../assets/avatars/bhadbhabie.jpg', import.meta.url).href, user: 'bhadbhabie' },
+                { photo: new URL('../assets/avatars/loganpaul.jpg', import.meta.url).href, user: 'loganpaul' },
+                { photo: new URL('../assets/avatars/elonmusk.jpg', import.meta.url).href, user: 'elonmusk' },
+                { photo: new URL('../assets/avatars/lenkamie.jpg', import.meta.url).href, user: 'lenkamie' },
+                { photo: new URL('../assets/avatars/mateklemp.jpg', import.meta.url).href, user: 'mateklemp' },
+                { photo: new URL('../assets/avatars/teamklemp.jpg', import.meta.url).href, user: 'teamklemp' }
+            ]
+        }
+    }
 });
 </script>
 

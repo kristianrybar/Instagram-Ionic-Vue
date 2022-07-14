@@ -71,42 +71,7 @@
             <section class="tiles">
                 <ion-grid class="grid">
                     <ion-row class="row">
-                        <ion-col size="4"><img src="@/assets/thumbs/0.jpg" alt=""></ion-col>
-                        <ion-col size="4"><img src="@/assets/thumbs/1.jpg" alt=""></ion-col>
-                        <ion-col size="4"><img src="@/assets/thumbs/2.jpg" alt=""></ion-col>
-                        <ion-col size="4"><img src="@/assets/thumbs/3.jpg" alt=""></ion-col>
-                        <ion-col size="4"><img src="@/assets/thumbs/4.jpg" alt=""></ion-col>
-                        <ion-col size="4"><img src="@/assets/thumbs/5.jpg" alt=""></ion-col>
-                        <ion-col size="4"><img src="@/assets/thumbs/6.jpg" alt=""></ion-col>
-                        <ion-col size="4"><img src="@/assets/thumbs/7.jpg" alt=""></ion-col>
-                        <ion-col size="4"><img src="@/assets/thumbs/8.jpg" alt=""></ion-col>
-                        <ion-col size="4"><img src="@/assets/thumbs/9.jpg" alt=""></ion-col>
-                        <ion-col size="4"><img src="@/assets/thumbs/10.jpg" alt=""></ion-col>
-                        <ion-col size="4"><img src="@/assets/thumbs/11.jpg" alt=""></ion-col>
-                        <ion-col size="4"><img src="@/assets/thumbs/0.jpg" alt=""></ion-col>
-                        <ion-col size="4"><img src="@/assets/thumbs/2.jpg" alt=""></ion-col>
-                        <ion-col size="4"><img src="@/assets/thumbs/3.jpg" alt=""></ion-col>
-                        <ion-col size="4"><img src="@/assets/thumbs/4.jpg" alt=""></ion-col>
-                        <ion-col size="4"><img src="@/assets/thumbs/5.jpg" alt=""></ion-col>
-                        <ion-col size="4"><img src="@/assets/thumbs/6.jpg" alt=""></ion-col>
-                        <ion-col size="4"><img src="@/assets/thumbs/7.jpg" alt=""></ion-col>
-                        <ion-col size="4"><img src="@/assets/thumbs/8.jpg" alt=""></ion-col>
-                        <ion-col size="4"><img src="@/assets/thumbs/9.jpg" alt=""></ion-col>
-                        <ion-col size="4"><img src="@/assets/thumbs/10.jpg" alt=""></ion-col>
-                        <ion-col size="4"><img src="@/assets/thumbs/11.jpg" alt=""></ion-col>
-                        <ion-col size="4"><img src="@/assets/thumbs/0.jpg" alt=""></ion-col>
-                        <ion-col size="4"><img src="@/assets/thumbs/1.jpg" alt=""></ion-col>
-                        <ion-col size="4"><img src="@/assets/thumbs/2.jpg" alt=""></ion-col>
-                        <ion-col size="4"><img src="@/assets/thumbs/3.jpg" alt=""></ion-col>
-                        <ion-col size="4"><img src="@/assets/thumbs/4.jpg" alt=""></ion-col>
-                        <ion-col size="4"><img src="@/assets/thumbs/5.jpg" alt=""></ion-col>
-                        <ion-col size="4"><img src="@/assets/thumbs/6.jpg" alt=""></ion-col>
-                        <ion-col size="4"><img src="@/assets/thumbs/7.jpg" alt=""></ion-col>
-                        <ion-col size="4"><img src="@/assets/thumbs/8.jpg" alt=""></ion-col>
-                        <ion-col size="4"><img src="@/assets/thumbs/9.jpg" alt=""></ion-col>
-                        <ion-col size="4"><img src="@/assets/thumbs/10.jpg" alt=""></ion-col>
-                        <ion-col size="4"><img src="@/assets/thumbs/11.jpg" alt=""></ion-col>
-                        <ion-col size="4"><img src="@/assets/thumbs/0.jpg" alt=""></ion-col>
+                        <a-tiles/>
                     </ion-row>
                 </ion-grid>
             </section>
@@ -117,10 +82,11 @@
 <script lang="ts">
 import { defineComponent } from 'vue';
 import { IonButtons, IonButton, IonTitle, IonIcon, IonHeader, IonCol, IonSegmentButton, IonSegment, IonRow, IonGrid, IonContent, IonPage } from '@ionic/vue';
+import ATiles from '../cards/a-tiles.vue'
 
 export default defineComponent({
     name:'a-profile',
-    components: { IonButtons, IonButton, IonTitle, IonIcon, IonHeader, IonCol, IonSegmentButton, IonSegment, IonRow, IonGrid, IonContent, IonPage }
+    components: { IonButtons, IonButton, IonTitle, IonIcon, IonHeader, IonCol, IonSegmentButton, IonSegment, IonRow, IonGrid, IonContent, IonPage, ATiles }
 })
 </script>
 
@@ -198,8 +164,4 @@ ion-segment-button {
     padding: 0;
 }
 
-.tiles .grid ion-col {
-    padding: 0.5px!important;
-    margin-bottom: -4px;
-}
 </style>

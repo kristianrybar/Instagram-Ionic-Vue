@@ -13,7 +13,7 @@ const routes: Array<RouteRecordRaw> = [
       },
       {
         path: '/home',
-        component: () => import('@/views/HomePage.vue')
+        component: () => import('@/views/a-home.vue')
       },
       {
         path: '/search',
